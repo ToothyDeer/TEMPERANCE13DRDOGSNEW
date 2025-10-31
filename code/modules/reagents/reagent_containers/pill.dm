@@ -132,3 +132,15 @@
 	icon_state = "pill9"
 	list_reagents = list(/datum/reagent/iron = 30)
 	rename_with_volume = TRUE
+
+/obj/item/reagent_containers/pill/health
+	name = "blood pill"
+	desc = "A crumbly pill that's really good at restoring blood, sealing cuts, and restoring wounds."
+	icon_state = "pill1"
+	list_reagents = list(/datum/reagent/medicine/stronghealth = 15)
+
+/obj/item/reagent_containers/pill/painkiller
+	name = "green pill"
+	desc = "A solid pill that's supposed to kill the pain. Only take one at a time."
+	icon_state = "pill2"
+	list_reagents = list(/datum/reagent/ozium = 15)

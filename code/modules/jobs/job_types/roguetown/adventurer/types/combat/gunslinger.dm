@@ -9,7 +9,7 @@
 	classes = list("Perpretrator" = "In all honesty, you're probably a criminal. You have a double-barreled shotgun, and aren't from here.",
 					"Desperado" = "You might just be a bandit. You carry a mass-produced revolver, and aren't recognized.",
 					"Gangster" = "You're probably from a gang. Or, you happened to kill whoever held the pistol before you. Make some money, grab some guns. Try not to die. Nobody knows you.",
-					"Old-Boy" = "guy w/ bad stats and a stolen rifle.")
+					"Old-Boy" = "Somehow, you've found a Perserdunian Rifle in your hand. Either through desertion, or by merchants.")
 
 /datum/outfit/job/roguetown/adventurer/gunslinger/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -54,8 +54,6 @@
 			H.adjust_skillrank(/datum/skill/misc/lockpicking, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/craft/traps, 3, TRUE)
 			ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
-			ADD_TRAIT(H, TRAIT_SEEPRICES, TRAIT_GENERIC)
-			ADD_TRAIT(H, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
 			H.change_stat("strength", -1)
 			H.change_stat("intelligence", 1)
 			H.change_stat("perception", 1)
@@ -142,8 +140,6 @@
 			H.adjust_skillrank(/datum/skill/misc/lockpicking, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/craft/traps, 3, TRUE)
 			ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
-			ADD_TRAIT(H, TRAIT_SEEPRICES, TRAIT_GENERIC)
-			ADD_TRAIT(H, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
 			H.change_stat("strength", -1)
 			H.change_stat("intelligence", 1)
 			H.change_stat("perception", 1)
@@ -153,7 +149,7 @@
 
 		if("Old-Boy")
 			
-			to_chat(H, span_warning("Somehow, you've found a Perserdunian Rifle in your hand. Either through desertion, or by merchants - you can now shoot whoever you hate."))
+			to_chat(H, span_warning("Somehow, you've found a Perserdunian Rifle in your hand. Either through desertion, or by merchants."))
 			armor = /obj/item/clothing/suit/roguetown/armor/leather
 			cloak = /obj/item/clothing/cloak/tabard
 			wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
@@ -188,10 +184,7 @@
 			H.adjust_skillrank(/datum/skill/misc/lockpicking, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/craft/traps, 3, TRUE)
 			ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
-			ADD_TRAIT(H, TRAIT_SEEPRICES, TRAIT_GENERIC)
-			ADD_TRAIT(H, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
 			H.change_stat("strength", -1)
-			H.change_stat("intelligence", 1)
 			H.change_stat("perception", 1)
 			H.change_stat("endurance", 1)
 			H.change_stat("speed", 3)

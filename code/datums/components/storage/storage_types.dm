@@ -232,3 +232,19 @@
 		/obj/item/ammo_box/handfuls,
 		/obj/item/ammo_box/speedloader,
 	))
+
+/datum/component/storage/concrete/grid/pillbottle
+	max_w_class = WEIGHT_CLASS_SMALL
+	screen_max_rows = 4
+	screen_max_columns = 4
+	click_gather = TRUE
+	collection_mode = COLLECT_EVERYTHING
+	dump_time = 0
+	allow_quick_gather = TRUE
+	allow_quick_empty = TRUE
+	allow_dump_out = TRUE
+	insert_preposition = "in"
+
+/datum/component/storage/concrete/grid/pillbottle/New(datum/P, ...)
+	. = ..()
+	set_holdable(/obj/item/reagent_containers/pill)

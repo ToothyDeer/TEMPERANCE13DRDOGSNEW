@@ -50,6 +50,11 @@
 	gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
 	id = /obj/item/roguekey/risvon
 	backr = /obj/item/storage/backpack/rogue/satchel/chestrig
+	backpack_contents = list(
+		/obj/item/storage/belt/rogue/pouch/pillbottle,
+		/obj/item/rogueweapon/huntingknife/idagger/steel,
+		/obj/item/storage/belt/rogue/pouch/coins/rich,
+		)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/medicine, 5, TRUE)

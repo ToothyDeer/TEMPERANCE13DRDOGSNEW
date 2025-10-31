@@ -482,3 +482,17 @@
 	desc = "A funny piece of equipment, made for carrying whatever."
 	icon_state = "chestrig"
 	item_state = "chestrig"
+
+/obj/item/storage/belt/rogue/pouch/pillbottle
+	name = "pill bottle"
+	desc = "Plastic is a relatively rare and novel material, only being found on guns and other MACHINE-related items."
+	icon_state = "pillcanister"
+	item_state = "pillcanister"
+	component_type = /datum/component/storage/concrete/grid/pillbottle
+	populate_contents = list(
+		/obj/item/reagent_containers/pill/painkiller,
+		/obj/item/reagent_containers/pill/painkiller,
+		/obj/item/reagent_containers/pill/health,
+		/obj/item/reagent_containers/pill/health,
+		/obj/item/reagent_containers/pill/health,
+	)
