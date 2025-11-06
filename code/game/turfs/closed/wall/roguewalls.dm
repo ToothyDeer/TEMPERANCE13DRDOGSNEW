@@ -568,3 +568,179 @@
 
 /turf/closed/wall/mineral/rogue/warmachine/cand
 	icon_state = "rwall-cand"
+
+/turf/closed/wall/mineral/rogue/perserdun
+	name = "concrete wall"
+	desc = "A copy of Risvonian Concrete, produced by factories within Vos Arderla, the Great Empire's capital."
+	icon = 'icons/turf/roguewall.dmi'
+	icon_state = ""
+	smooth = SMOOTH_FALSE
+	blade_dulling = DULLING_BASHCHOP
+	max_integrity = 1800
+	break_sound = 'sound/combat/hits/onstone/stonedeath.ogg'
+	attacked_sound = list('sound/combat/hits/onstone/wallhit.ogg', 'sound/combat/hits/onstone/wallhit2.ogg', 'sound/combat/hits/onstone/wallhit3.ogg')
+	above_floor = /turf/open/floor/rogue/rooftop //change once the sprites are done
+	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	neighborlay = "dirtedge"
+	climbdiff = 3
+
+/turf/closed/wall/mineral/rogue/perserdun/center
+	icon_state = "buildnTurf_I"
+
+/turf/closed/wall/mineral/rogue/perserdun/middle
+	icon_state = "buildnTurf_M"
+
+/turf/closed/wall/mineral/rogue/perserdun/middle/dir1
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/perserdun/middle/dir8
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/perserdun/middle/dir4
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/perserdun/outercorner
+	icon_state = "buildnTurf_OC"
+
+/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir1
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir8
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir4
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/perserdun/innercorner
+	icon_state = "buildnTurf_IC"
+
+/turf/closed/wall/mineral/rogue/perserdun/innercorner/dir1
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/perserdun/innercorner/dir8
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/perserdun/innercorner/dir4
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/risvon
+	name = "concrete wall"
+	desc = "The mason did an excellent job etching details into this wall."
+	icon = 'icons/turf/roguewall.dmi'
+	icon_state = "decostone-b"
+	smooth = SMOOTH_MORE
+	blade_dulling = DULLING_BASH
+	max_integrity = 1800
+	sheet_type = /obj/item/natural/stone
+	break_sound = 'sound/combat/hits/onstone/stonedeath.ogg'
+	attacked_sound = list('sound/combat/hits/onstone/wallhit.ogg', 'sound/combat/hits/onstone/wallhit2.ogg', 'sound/combat/hits/onstone/wallhit3.ogg')
+	above_floor = /turf/open/floor/rogue/rooftop //change once the sprites are done
+	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	neighborlay = "dirtedge"
+	climbdiff = 3
+
+/turf/closed/wall/mineral/rogue/risvon/long
+	icon_state = "building-l"
+
+/turf/closed/wall/mineral/rogue/risvon/long/east_west
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/risvon/center
+	icon_state = "building-c"
+
+/turf/closed/wall/mineral/rogue/risvon/end
+	icon_state = "building-e"
+
+/turf/closed/wall/mineral/rogue/risvon/end/north
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/risvon/end/east
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/risvon/end/west
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/risvon/outercorner
+	icon_state = "building_OC"
+
+/turf/closed/wall/mineral/rogue/risvon/outercorner/dir1
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/risvon/outercorner/dir8
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/risvon/outercorner/dir4
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/risvon/innercorner
+	icon_state = "building_IC"
+
+/turf/closed/wall/mineral/rogue/risvon/innercorner/dir1
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/risvon/innercorner/dir8
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/risvon/innercorner/dir4
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/machine
+	name = "strange metal wall"
+	desc = "It's strangely warm, and clean. Nobody could make this."
+	icon = 'icons/turf/roguewall.dmi'
+	icon_state = "decostone-b"
+	smooth = SMOOTH_MORE
+	blade_dulling = DULLING_BASH
+	max_integrity = 5000 //good luck
+	sheet_type = /obj/item/natural/stone
+	break_sound = 'sound/combat/hits/onmetal/sheet (1).ogg'
+	attacked_sound = list('sound/combat/hits/onmetal/attackpipewall (1).ogg','sound/combat/hits/onmetal/attackpipewall (2).ogg')
+	above_floor = /turf/open/floor/rogue/rooftop //change once the sprites are done
+	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	neighborlay = "dirtedge"
+	climbdiff = 3
+
+/turf/closed/wall/mineral/rogue/machine/long
+	icon_state = "decometal-l"
+
+/turf/closed/wall/mineral/rogue/machine/long/east_west
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/machine/center
+	icon_state = "decometal-c"
+
+/turf/closed/wall/mineral/rogue/machine/end
+	icon_state = "decometal-e"
+
+/turf/closed/wall/mineral/rogue/machine/end/north
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/machine/end/east
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/machine/end/west
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/machine/outercorner
+	icon_state = "decometal_OC"
+
+/turf/closed/wall/mineral/rogue/machine/outercorner/dir1
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/machine/outercorner/dir8
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/machine/outercorner/dir4
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/machine/innercorner
+	icon_state = "decometal_IC"
+
+/turf/closed/wall/mineral/rogue/machine/innercorner/dir1
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/machine/innercorner/dir8
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/machine/innercorner/dir4
+	dir = 4
