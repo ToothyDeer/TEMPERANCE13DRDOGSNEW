@@ -209,7 +209,7 @@ GLOBAL_VAR_INIT(farm_animals, FALSE)
 	if (T && AIStatus == AI_Z_OFF)
 		SSidlenpcpool.idle_mobs_by_zlevel[T.z] -= src
 
-	return ..()
+	. = ..()
 
 /mob/living/simple_animal/attackby(obj/item/O, mob/user, params)
 	if(!is_type_in_list(O, food_type))
