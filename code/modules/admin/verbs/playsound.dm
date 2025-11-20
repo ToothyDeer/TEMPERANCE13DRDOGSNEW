@@ -261,7 +261,12 @@ GLOBAL_LIST_INIT(ambience_files, list(
 	'sound/music/area/shop.ogg',
 	'sound/music/area/spidercave.ogg',
 	'sound/music/area/towngen.ogg',
-	'sound/music/area/townstreets.ogg'
+	'sound/music/area/townstreets.ogg',
+	'sound/music/area/sleeping.ogg',
+	'sound/music/area/morning.ogg',
+	'sound/music/area/strange_place.ogg',
+	'sound/music/area/unnerving.ogg',
+	'sound/music/area/warmachine.ogg',
 	))
 
 /client/verb/preload_sounds()

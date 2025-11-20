@@ -181,12 +181,3 @@
 			..()
 	else
 		to_chat(user, "<span class='notice'>There are no [icon_type]s left in the pack.</span>")
-
-/obj/item/storage/fancy/cigarettes/zig
-	name = "zigbox"
-	desc = ""
-	icon_state = "zig"
-	spawn_type = /obj/item/clothing/mask/cigarette/rollie/nicotine
-
-/obj/item/storage/fancy/cigarettes/zig/empty
-	spawn_type = null

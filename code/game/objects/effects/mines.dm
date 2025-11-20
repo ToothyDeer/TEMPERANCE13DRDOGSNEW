@@ -3,7 +3,7 @@
 	desc = ""
 	density = FALSE
 	anchored = TRUE
-	icon = 'icons/obj/items_and_weapons.dmi'
+	icon = 'icons/roguetown/misc/traps.dmi'
 	icon_state = "uglymine"
 	var/triggered = 0
 
@@ -22,7 +22,7 @@
 /obj/effect/mine/proc/triggermine(mob/victim)
 	if(triggered)
 		return
-	visible_message(span_danger("[victim] sets off [icon2html(src, viewers(src))] [src]!"))
+	visible_message(span_danger("[victim] sets off the [src]!"))
 	var/datum/effect_system/spark_spread/s = new /datum/effect_system/spark_spread
 	s.set_up(3, 1, src)
 	s.start()
@@ -32,14 +32,13 @@
 
 
 /obj/effect/mine/explosive
-	name = "explosive mine"
-	var/range_devastation = 0
-	var/range_heavy = 1
-	var/range_light = 2
-	var/range_flash = 3
+	name = "landmine"
+	desc = "Don't step on me. I'm armed."
+	icon = 'icons/roguetown/misc/traps.dmi'
+	icon_state = "mine"
 
 /obj/effect/mine/explosive/mineEffect(mob/victim)
-	explosion(loc, range_devastation, range_heavy, range_light, range_flash)
+	explosion(src, devastation_range = 1, heavy_impact_range = 1, light_impact_range = 1, smoke = FALSE, soundin = pick('sound/misc/explode/arty1.ogg','sound/misc/explode/arty2.ogg','sound/misc/explode/arty3.ogg','sound/misc/explode/arty4.ogg','sound/misc/explode/arty5.ogg','sound/misc/explode/arty6.ogg'))
 
 
 /obj/effect/mine/stun

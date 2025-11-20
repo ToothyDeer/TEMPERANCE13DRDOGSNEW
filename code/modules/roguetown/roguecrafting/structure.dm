@@ -18,7 +18,7 @@
 				/obj/item/rope = 1)
 	verbage_simple = "construct"
 	verbage = "constructs"
-/*	- Disabled. Because you people can't be trusted.. Mapped-in only.
+
 /datum/crafting_recipe/roguetown/structure/noose
 	name = "noose"
 	result = /obj/structure/noose
@@ -36,7 +36,7 @@
 	if(istype(checking,/turf/open/transparent/openspace))
 		return FALSE
 	return TRUE
-*/
+
 /datum/crafting_recipe/roguetown/structure/psycrss
 	name = "wooden cross"
 	result = /obj/structure/fluff/psycross/crafted
@@ -874,6 +874,7 @@
 	verbage = "sets up"
 	buildsame = TRUE
 	craftdiff = 0
+	craftsound = 'sound/foley/softbuild.ogg'
 
 /datum/crafting_recipe/roguetown/turfs/wood/barbedwire // doesnt actually make a wall - but idgaf
 	name = "barbed wire (1 barbed wire)"
@@ -883,3 +884,14 @@
 	verbage_simple = "set up"
 	verbage = "sets up"
 	skillcraft = /datum/skill/craft/crafting
+	craftsound = 'sound/foley/barbedwire.ogg'
+
+/datum/crafting_recipe/roguetown/structure/landmine
+	name = "landmine (1 disarmed mine)"
+	result = /obj/effect/mine/explosive
+	reqs = list(/obj/item/landmine = 1)
+	craftdiff = 0
+	verbage_simple = "set up"
+	verbage = "sets up"
+	skillcraft = /datum/skill/craft/crafting
+	craftsound = 'sound/foley/mine_arm.ogg'

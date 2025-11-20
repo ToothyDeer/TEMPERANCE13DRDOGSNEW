@@ -16,3 +16,9 @@
 	contains = list(/obj/item/barbedwire, 
 	/obj/item/barbedwire,
 	/obj/item/barbedwire)
+
+/datum/supply_pack/rogue/fortifications/landmine
+	name = "Landmines (x2)"
+	cost = 30
+	contains = list(/obj/item/landmine,
+	/obj/item/landmine)

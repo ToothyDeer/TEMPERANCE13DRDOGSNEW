@@ -17,3 +17,13 @@
 	righthand_file = null
 	w_class = WEIGHT_CLASS_NORMAL
 	slot_flags = ITEM_SLOT_MOUTH
+
+/obj/item/landmine
+	name = "landmine"
+	icon_state = "mine_disarmed"
+	icon = 'icons/roguetown/items/misc.dmi'
+	desc = "A disarmed landmine. Handle with care."
+	lefthand_file = null
+	righthand_file = null
+	w_class = WEIGHT_CLASS_NORMAL
+	slot_flags = ITEM_SLOT_MOUTH

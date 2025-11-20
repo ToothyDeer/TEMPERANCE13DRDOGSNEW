@@ -261,7 +261,6 @@
     var/datum/effect_system/smoke_spread/poison_gas/S = new /datum/effect_system/smoke_spread/poison_gas
     S.set_up(radius, T)
     S.start()
-    new /obj/item/ash(T)
     qdel(src)
 
 /obj/item/gasgrenade/process()
