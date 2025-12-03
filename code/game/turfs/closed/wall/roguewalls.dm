@@ -569,11 +569,11 @@
 /turf/closed/wall/mineral/rogue/warmachine/cand
 	icon_state = "rwall-cand"
 
-/turf/closed/wall/mineral/rogue/perserdun
+/turf/closed/wall/mineral/rogue/miscroof
 	name = "concrete wall"
-	desc = "A copy of Risvonian Concrete, produced by factories within Vos Arderla, the Great Empire's capital."
+	desc = "Bleak."
 	icon = 'icons/turf/roguewall.dmi'
-	icon_state = ""
+	icon_state = "buildnTurf_I"
 	smooth = SMOOTH_FALSE
 	blade_dulling = DULLING_BASHCHOP
 	max_integrity = 1800
@@ -584,50 +584,50 @@
 	neighborlay = "dirtedge"
 	climbdiff = 3
 
-/turf/closed/wall/mineral/rogue/perserdun/center
+/turf/closed/wall/mineral/rogue/miscroof/center
 	icon_state = "buildnTurf_I"
 
-/turf/closed/wall/mineral/rogue/perserdun/middle
+/turf/closed/wall/mineral/rogue/miscroof/middle
 	icon_state = "buildnTurf_M"
 
-/turf/closed/wall/mineral/rogue/perserdun/middle/dir1
+/turf/closed/wall/mineral/rogue/miscroof/middle/dir1
 	dir = 1
 
-/turf/closed/wall/mineral/rogue/perserdun/middle/dir8
+/turf/closed/wall/mineral/rogue/miscroof/middle/dir8
 	dir = 8
 
-/turf/closed/wall/mineral/rogue/perserdun/middle/dir4
+/turf/closed/wall/mineral/rogue/miscroof/middle/dir4
 	dir = 4
 
-/turf/closed/wall/mineral/rogue/perserdun/outercorner
+/turf/closed/wall/mineral/rogue/miscroof/outercorner
 	icon_state = "buildnTurf_OC"
 
-/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir1
+/turf/closed/wall/mineral/rogue/miscroof/outercorner/dir1
 	dir = 1
 
-/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir8
+/turf/closed/wall/mineral/rogue/miscroof/outercorner/dir8
 	dir = 8
 
-/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir4
+/turf/closed/wall/mineral/rogue/miscroof/outercorner/dir4
 	dir = 4
 
-/turf/closed/wall/mineral/rogue/perserdun/innercorner
+/turf/closed/wall/mineral/rogue/miscroof/innercorner
 	icon_state = "buildnTurf_IC"
 
-/turf/closed/wall/mineral/rogue/perserdun/innercorner/dir1
+/turf/closed/wall/mineral/rogue/miscroof/innercorner/dir1
 	dir = 1
 
-/turf/closed/wall/mineral/rogue/perserdun/innercorner/dir8
+/turf/closed/wall/mineral/rogue/miscroof/innercorner/dir8
 	dir = 8
 
-/turf/closed/wall/mineral/rogue/perserdun/innercorner/dir4
+/turf/closed/wall/mineral/rogue/miscroof/innercorner/dir4
 	dir = 4
 
 /turf/closed/wall/mineral/rogue/risvon
 	name = "concrete wall"
-	desc = "The mason did an excellent job etching details into this wall."
+	desc = "Risvonian red sand makes up the bulk of this type of concrete."
 	icon = 'icons/turf/roguewall.dmi'
-	icon_state = "decostone-b"
+	icon_state = "building-b"
 	smooth = SMOOTH_MORE
 	blade_dulling = DULLING_BASH
 	max_integrity = 1800
@@ -686,7 +686,7 @@
 
 /turf/closed/wall/mineral/rogue/machine
 	name = "strange metal wall"
-	desc = "It's strangely warm, and clean. Nobody could make this."
+	desc = "It's dusty. Warm, with a faint buzz."
 	icon = 'icons/turf/roguewall.dmi'
 	icon_state = "decostone-b"
 	smooth = SMOOTH_MORE
@@ -732,3 +732,135 @@
 
 /turf/closed/wall/mineral/rogue/machine/outercorner/dir4
 	dir = 4
+
+/turf/closed/wall/mineral/rogue/perserdun
+	name = "concrete wall"
+	desc = "A copy of Risvonian Concrete, produced by factories within Vos Arderla, the Great Empire's capital."
+	icon = 'icons/turf/roguewall.dmi'
+	icon_state = "building2-b"
+	smooth = SMOOTH_MORE
+	blade_dulling = DULLING_BASH
+	max_integrity = 1800
+	sheet_type = /obj/item/natural/stone
+	break_sound = 'sound/combat/hits/onstone/stonedeath.ogg'
+	attacked_sound = list('sound/combat/hits/onstone/wallhit.ogg', 'sound/combat/hits/onstone/wallhit2.ogg', 'sound/combat/hits/onstone/wallhit3.ogg')
+	above_floor = /turf/open/floor/rogue/rooftop //change once the sprites are done
+	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	neighborlay = "dirtedge"
+	climbdiff = 3
+
+/turf/closed/wall/mineral/rogue/perserdun/long
+	icon_state = "building2-l"
+
+/turf/closed/wall/mineral/rogue/perserdun/long/east_west
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/perserdun/center
+	icon_state = "building2-c"
+
+/turf/closed/wall/mineral/rogue/perserdun/end
+	icon_state = "building2-e"
+
+/turf/closed/wall/mineral/rogue/perserdun/end/north
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/perserdun/end/east
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/perserdun/end/west
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/perserdun/outercorner
+	icon_state = "building2_OC"
+
+/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir1
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir8
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir4
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/kingsrow
+	name = "complex wall"
+	desc = "It's looks like it's made out of interlocking & hinged sheets of unfolded metal."
+	icon = 'icons/turf/roguewall.dmi'
+	icon_state = "cornermetaldark"
+	smooth = SMOOTH_FALSE
+	blade_dulling = DULLING_BASHCHOP
+	max_integrity = 1100
+	break_sound = 'sound/combat/hits/onmetal/sheet (1).ogg'
+	attacked_sound = list('sound/combat/hits/onmetal/attackpipewall (1).ogg','sound/combat/hits/onmetal/attackpipewall (2).ogg')
+//	sheet_type = /obj/item/grown/log/tree/lumber
+	above_floor = /turf/open/floor/rogue/ruinedwood // change once the sprites are done
+	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	neighborlay = "dirtedge"
+	climbdiff = 3
+	spread_chance = 4
+
+/turf/closed/wall/mineral/rogue/kingsrow/horizontal
+	icon_state = "horizmetaldark"
+
+/turf/closed/wall/mineral/rogue/kingsrow/vertical
+	icon_state = "vertmetaldark"
+
+/turf/closed/wall/mineral/rogue/kingsrow/end
+	icon_state = "endmetaldark"
+
+/turf/closed/wall/mineral/rogue/kingsrow/end/east
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/kingsrow/end/west
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/kingsrow/end/north
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/kingsrow/slitted
+	icon_state = "cornermetaldark"
+
+/turf/closed/wall/mineral/rogue/kingsrow/light
+	name = "light source"
+	desc = "This panel has some kind of bulb in it."
+	icon_state = "subwindowmetaldark"
+	opacity = FALSE
+	max_integrity = 850
+
+/turf/closed/wall/mineral/rogue/scary
+	name = "weird wall"
+	desc = "The patterns are unsettling to look at."
+	icon = 'icons/turf/roguewall.dmi'
+	icon_state = "cornersteeldark"
+	smooth = SMOOTH_FALSE
+	blade_dulling = DULLING_BASHCHOP
+	max_integrity = 1100
+	break_sound = 'sound/combat/hits/onmetal/sheet (1).ogg'
+	attacked_sound = list('sound/combat/hits/onmetal/attackpipewall (1).ogg','sound/combat/hits/onmetal/attackpipewall (2).ogg')
+//	sheet_type = /obj/item/grown/log/tree/lumber
+	above_floor = /turf/open/floor/rogue/ruinedwood // change once the sprites are done
+	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	neighborlay = "dirtedge"
+	climbdiff = 3
+	spread_chance = 4
+
+/turf/closed/wall/mineral/rogue/scary/horizontal
+	icon_state = "horizsteeldark"
+
+/turf/closed/wall/mineral/rogue/scary/vertical
+	icon_state = "vertsteeldark"
+
+/turf/closed/wall/mineral/rogue/scary/end
+	icon_state = "endsteeldark"
+
+/turf/closed/wall/mineral/rogue/scary/end/east
+	dir = 4
+
+/turf/closed/wall/mineral/rogue/scary/end/west
+	dir = 8
+
+/turf/closed/wall/mineral/rogue/scary/end/north
+	dir = 1
+
+/turf/closed/wall/mineral/rogue/scary/slitted
+	icon_state = "cornersteeldark"
