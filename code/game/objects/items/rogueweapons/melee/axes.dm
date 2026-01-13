@@ -162,8 +162,8 @@
 	force_wielded = 40
 	possible_item_intents = list(/datum/intent/axe/cut/battle, /datum/intent/axe/chop/battle, /datum/intent/axe/bash)
 	name = "WILL"
-	desc = "A freakish axe carved out of walls ripped from broken LOVE MACHINES. Crush the Ziggurate."
-	icon_state = "oath"
+	desc = "A freakish sword carved out of the walls ripped from broken LOVE MACHINES. Crush the Ziggurate."
+	icon_state = "exe" //i know it's a sword. it just looks better than oath or w/e
 	icon = 'icons/roguetown/weapons/64.dmi'
 	max_blade_int = 500
 	dropshrink = 0.75
@@ -508,3 +508,16 @@
 	max_blade_int = 300
 	minstr = 13							//Heavy, but still good.
 	wdefense = 3						//Slightly better than norm, has 6 defense 2 handing it.
+
+/obj/item/rogueweapon/stoneaxe/woodcut/risvon
+	name = "trench axe"
+	desc = "Stamped and milled, not forged."
+	icon_state = "trenchaxe"
+	force = 23
+	force_wielded = 28
+	possible_item_intents = list(/datum/intent/axe/cut,/datum/intent/axe/chop, /datum/intent/mace/warhammer/pick, /datum/intent/axe/bash)
+	gripped_intents = list(/datum/intent/axe/cut,/datum/intent/axe/chop, /datum/intent/mace/warhammer/pick, /datum/intent/axe/bash)
+	smeltresult = /obj/item/ingot/steel
+	w_class = WEIGHT_CLASS_NORMAL
+	wlength = WLENGTH_NORMAL
+	toolspeed = 2
