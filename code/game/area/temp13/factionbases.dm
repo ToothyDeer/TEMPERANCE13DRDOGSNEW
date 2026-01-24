@@ -8,6 +8,14 @@
 	first_time_text = "OUTPOST XIPHOS"
 	town_area = TRUE
 
+/area/rogue/outdoors/indoors/persunbaseoutlook
+	name = "perserdun outdoors"
+	icon_state = "town"
+	droning_sound = null
+	droning_sound_dusk = null
+	droning_sound_night = null
+	converted_type = /area/rogue/outdoors/exposed/town
+
 /area/rogue/outdoors/exposed/perserdunbase
 	name = "perserdun outdoors"
 	icon_state = "town"
@@ -23,6 +31,16 @@
 	droning_sound_night = 'sound/music/area/sleeping.ogg'
 	converted_type = /area/rogue/outdoors/exposed/town
 	town_area = TRUE
+
+/area/rogue/indoors/risvonbasebar
+	name = "risvon indoors"
+	icon_state = "town"
+	droning_sound = null
+	droning_sound_dusk = null
+	droning_sound_night = null
+	converted_type = /area/rogue/outdoors/exposed/town
+	town_area = TRUE
+
 
 /area/rogue/outdoors/exposed/risvonbase
 	name = "risvon outdoors"

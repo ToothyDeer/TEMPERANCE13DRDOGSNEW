@@ -395,6 +395,12 @@
 	base_icon_state = "book6"
 	bookfile = "naledi4.json"
 
+/obj/item/book/rogue/regulations
+	name = "FINAL NOTICE"
+	desc = "Keep your Armsmen in line."
+	icon_state ="book_0"
+	base_icon_state = "book"
+	bookfile = "perserdunregs.json"
 
 /obj/item/book/rogue/playerbook
 	var/player_book_text
