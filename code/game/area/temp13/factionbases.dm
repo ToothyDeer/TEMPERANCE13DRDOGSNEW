@@ -8,7 +8,7 @@
 	first_time_text = "OUTPOST XIPHOS"
 	town_area = TRUE
 
-/area/rogue/outdoors/indoors/persunbaseoutlook
+/area/rogue/outdoors/indoors/persunbaseoutlook // for jukeboxes
 	name = "perserdun outdoors"
 	icon_state = "town"
 	droning_sound = null
