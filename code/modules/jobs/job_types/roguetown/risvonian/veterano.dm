@@ -11,8 +11,8 @@
 
 	tutorial = "You're Risvonian Squad Support. \
 				You're supposed to obey the orders of the Oficiro and Commandant, while working with your squadron. \
-				Ideally, you're supposed to keep your Soldatos alive, while whatever your higher-ups define as 'The Enemy'. \
-				Veteranos are typically promoted from Soldatos, based off of their combat and leadership prowess." 
+				Ideally, you're supposed to keep your Soldati alive, while whatever your higher-ups define as 'The Enemy'. \
+				Veteranos are typically promoted from Soldati, based off of their combat and leadership prowess." 
 
 	outfit = /datum/outfit/job/roguetown/veterano
 	display_order = JDO_VETERANO

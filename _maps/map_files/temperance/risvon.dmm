@@ -48,6 +48,9 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt/grime/dust,
+/obj/structure/fluff/railing/sandbag{
+	dir = 1
+	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "aH" = (
@@ -631,8 +634,7 @@
 /turf/closed/wall/mineral/rogue/risvon/tshape/dir1,
 /area/rogue/indoors/risvonbasebar)
 "gu" = (
-/obj/effect/decal/cleanable/dirt/grime/grime4,
-/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated,
+/obj/effect/loretile/funnyoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "gv" = (
@@ -833,10 +835,11 @@
 /turf/open/floor/rogue/med,
 /area/rogue/indoors/risvonbase)
 "hO" = (
-/obj/machinery/light/rogue/wallfire/candle,
-/obj/structure/fluff/railing/sandbag{
-	dir = 1
+/obj/structure/mineral_door/wood{
+	lockid = "risvontag";
+	name = "OUTPOST XIPHOS"
 	},
+/obj/effect/loretile/bastillexiphos,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "hU" = (
@@ -1410,6 +1413,18 @@
 /turf/open/water/bath/pool{
 	dir = 6
 	},
+/area/rogue/indoors/risvonbase)
+"nq" = (
+/obj/effect/decal/cleanable/dirt/grime/dust,
+/obj/machinery/light/rogue/wallfire/candle,
+/obj/structure/fluff/railing/sandbag{
+	dir = 4;
+	layer = 2.92
+	},
+/obj/structure/fluff/railing/sandbag{
+	dir = 1
+	},
+/turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "nw" = (
 /obj/structure/table/wood{
@@ -2600,6 +2615,11 @@
 /obj/effect/landmark/start/soldatolate,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/risvonbase)
+"xt" = (
+/obj/effect/decal/cleanable/dirt/grime/dust,
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/rogue/warmetal,
+/area/rogue/under/cave/warmachine)
 "xv" = (
 /obj/structure/handcart,
 /turf/open/floor/rogue/warmetal,
@@ -3680,6 +3700,11 @@
 	},
 /turf/closed/wall/mineral/rogue/risvon/long/east_west,
 /area/rogue/indoors/risvonbasebar)
+"Gh" = (
+/obj/effect/decal/cleanable/dirt/grime/dust,
+/obj/machinery/light/rogue/wallfire/candle,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "Gk" = (
 /obj/structure/table/wood/funny/right,
 /turf/open/floor/rogue/warmetal,
@@ -3852,6 +3877,10 @@
 /obj/machinery/light/rogue/wallfire,
 /turf/closed/wall/mineral/rogue/risvon/long/east_west,
 /area/rogue/indoors/risvonbasebar)
+"Ic" = (
+/obj/structure/far_travel,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "Id" = (
 /obj/machinery/light/rogue/wallfire/candle{
 	pixel_y = -32
@@ -4128,6 +4157,7 @@
 /area/rogue/under/cave/warmachine)
 "JM" = (
 /obj/structure/mineral_door/bars,
+/obj/effect/loretile/rostrumlemuria,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/risvonbase)
 "JO" = (
@@ -5454,7 +5484,6 @@
 /obj/structure/fluff/walldeco/doom{
 	pixel_x = -34
 	},
-/obj/structure/far_travel,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
 "Vq" = (
@@ -5556,7 +5585,6 @@
 /area/rogue/indoors/shelter/town/sargoth)
 "VZ" = (
 /obj/structure/table/wood/long_table,
-/obj/item/book/rogue/regulationszig,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
 "Wc" = (
@@ -14429,7 +14457,7 @@ By
 mN
 By
 By
-QV
+xt
 By
 By
 lH
@@ -15991,7 +16019,7 @@ BC
 BC
 By
 ZM
-Zi
+iV
 BC
 vM
 jR
@@ -16118,11 +16146,11 @@ jR
 rf
 tM
 BC
-gu
+Aq
 By
 By
 By
-Zi
+iV
 vM
 jR
 jR
@@ -17420,7 +17448,7 @@ jR
 vM
 BC
 BC
-By
+gu
 BC
 OX
 vM
@@ -30178,7 +30206,7 @@ wu
 wu
 wu
 Tx
-tX
+Gh
 xK
 We
 hU
@@ -30299,15 +30327,15 @@ jR
 jR
 "}
 (60,1,2) = {"
-wu
-wu
-wu
-wu
-wu
-wu
-wu
-wu
-Tx
+HB
+HB
+HB
+HB
+HB
+HB
+HB
+HB
+Wi
 vf
 xK
 HU
@@ -30429,16 +30457,16 @@ jR
 jR
 "}
 (61,1,2) = {"
-wu
-wu
-wu
-wu
-wu
-wu
-wu
-wu
-Tx
+Ic
+xK
+xK
+xK
+xK
+xK
+xK
+xK
 hO
+xK
 xK
 vD
 xK
@@ -30559,15 +30587,15 @@ jR
 jR
 "}
 (62,1,2) = {"
-wu
-wu
-wu
-wu
-wu
-wu
-wu
-wu
-Tx
+HB
+HB
+HB
+HB
+HB
+HB
+HB
+HB
+WO
 aF
 xK
 vh
@@ -30698,7 +30726,7 @@ wu
 wu
 wu
 Tx
-tP
+nq
 Lv
 We
 iZ

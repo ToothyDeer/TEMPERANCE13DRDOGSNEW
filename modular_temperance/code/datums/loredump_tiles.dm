@@ -35,10 +35,22 @@ Very handy, eh?
 	name = "Butcher's Block Lore Tile"
 	lore = /datum/loreblurb/butchersblock
 
-/obj/effect/loretile/outpostxiphos
-	name = "Outpost Xiphos Lore Tile"
-	lore = /datum/loreblurb/outpostxiphos
+/obj/effect/loretile/outpostjulius
+	name = "Outpost Julius Lore Tile"
+	lore = /datum/loreblurb/outpostjulius
 
 /obj/effect/loretile/artillerysector
 	name = "Artillery Sector Lore Tile"
 	lore = /datum/loreblurb/artillerysector
+
+/obj/effect/loretile/rostrumlemuria
+	name = "Rostrum Lemuria Lore Tile"
+	lore = /datum/loreblurb/rostrumlemuria
+
+/obj/effect/loretile/bastillexiphos
+	name = "Bastille Xiphos Lore Tile"
+	lore = /datum/loreblurb/bastillexiphos
+
+/obj/effect/loretile/funnyoutlet
+	name = "Funny Outlet Lore Tile"
+	lore = /datum/loreblurb/funnyoutlet

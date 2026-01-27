@@ -11,7 +11,7 @@
 
 	tutorial = "You're the local Caprito's chief surgeon. \
 				Typically a female-regulated role, your main purpose is to tend to the wounds of the men, and keep them in fighting shape. \
-				Curacistos also hold some amount of authority, though only over Servistos and Soldatos.\
+				Curacistos also hold some amount of authority, though only over Servistos and Soldati.\
 				Like other backliners, you're prohibited from holding a weapon - unless shit hits the fan." 
 
 	outfit = /datum/outfit/job/roguetown/curacisto

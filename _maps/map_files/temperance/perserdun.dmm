@@ -933,10 +933,6 @@
 	},
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
-"mP" = (
-/obj/item/book/rogue/regulations,
-/turf/open/floor/carpet/royalblack,
-/area/rogue/indoors/perserdunbase)
 "mR" = (
 /obj/structure/fluff/railing/sandbag{
 	dir = 1
@@ -2025,6 +2021,13 @@
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/perserdun)
+"Cp" = (
+/obj/structure/mineral_door/wood/violet{
+	lockid = "perserdun"
+	},
+/obj/effect/loretile/outpostjulius,
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "Ct" = (
 /obj/structure/crater{
 	pixel_x = -14;
@@ -3116,11 +3119,8 @@
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "RP" = (
-/obj/structure/mineral_door/wood/violet{
-	lockid = "perserdun"
-	},
-/obj/effect/loretile/outpostxiphos,
-/turf/open/floor/rogue/perdun,
+/obj/item/book/rogue/regulations,
+/turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/perserdunbase)
 "RR" = (
 /obj/structure/table/vtable/v2,
@@ -16887,7 +16887,7 @@ Qd
 vt
 Sy
 Sy
-mP
+RP
 OE
 Qd
 HW
@@ -17559,7 +17559,7 @@ hW
 Qd
 SV
 CQ
-RP
+Cp
 CQ
 CQ
 CQ
