@@ -234,11 +234,6 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
-"jQ" = (
-/obj/structure/mineral_door/wood/wardoor,
-/obj/effect/spawner/roguemap/code2orgrime,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
 "kd" = (
 /obj/structure/fluff/railing/border/west,
 /turf/open/floor/rogue/grime,
@@ -646,8 +641,10 @@
 /turf/open/floor/rogue/grime,
 /area/rogue/under/cave/warmachine)
 "Er" = (
-/turf/closed/wall/mineral/rogue/scary,
-/area/rogue/under/cave/dungeon1)
+/obj/structure/mineral_door/wood/wardoor,
+/obj/effect/spawner/roguemap/code2orgrime,
+/turf/open/floor/rogue/warmetal,
+/area/rogue/under/cave/warmachine)
 "EV" = (
 /mob/living/simple_animal/hostile/rogue/robot/gunner/rifle,
 /turf/open/floor/rogue/warmetal,
@@ -1185,17 +1182,17 @@ tO
 VC
 FI
 FI
-Qs
+VC
 Eb
-Qs
-Qs
-Qs
-Qs
-Qs
-Qs
-Qs
-Qs
-Qs
+iF
+iF
+iF
+iF
+iF
+iF
+iF
+tO
+VC
 FI
 FI
 FI
@@ -1411,8 +1408,8 @@ OA
 xl
 wJ
 FI
-Er
-Qs
+VC
+vv
 Em
 dt
 dt
@@ -1422,7 +1419,7 @@ xl
 xl
 AF
 xl
-Qs
+wJ
 FI
 FI
 FI
@@ -1638,7 +1635,7 @@ bj
 gl
 wJ
 FI
-Er
+wJ
 Tk
 AO
 lX
@@ -1649,7 +1646,7 @@ rJ
 xl
 bj
 qZ
-Qs
+wJ
 FI
 FI
 FI
@@ -1865,18 +1862,18 @@ jG
 xl
 wJ
 FI
-Qs
+wJ
 ru
 pB
 no
 no
-VC
+Qs
 pP
 xl
 xl
 gy
 xl
-Qs
+wJ
 FI
 FI
 FI
@@ -2092,18 +2089,18 @@ xl
 xl
 wJ
 FI
-Qs
+vv
 Eb
-Qs
-Qs
+iF
+iF
 tO
-wJ
+VC
 td
 xl
 xl
 xl
 xl
-Qs
+wJ
 FI
 FI
 FI
@@ -2330,7 +2327,7 @@ xy
 xl
 Jo
 RR
-Qs
+vv
 FI
 FI
 FI
@@ -19339,7 +19336,7 @@ iF
 iF
 iF
 tO
-jQ
+Er
 Eb
 iF
 iF
