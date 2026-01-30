@@ -69,6 +69,18 @@
 	probby = 50
 	spawned = list(/obj/item/restraints/legcuffs/beartrap/armed/camouflage)
 
+/obj/effect/spawner/roguemap/code1orgrime
+	icon_state = "pit"
+	name = "code1"
+	probby = 50
+	spawned = list(/obj/effect/loretile/code1, /obj/effect/decal/cleanable/dirt/grime/grime4)
+
+/obj/effect/spawner/roguemap/code2orgrime
+	icon_state = "pit"
+	name = "code2"
+	probby = 50
+	spawned = list(/obj/effect/loretile/code2, /obj/effect/decal/cleanable/dirt/grime/grime4)
+
 // Potions n shit
 
 /obj/effect/spawner/lootdrop/potion_vitals

@@ -105,5 +105,16 @@ Just because it'd get a LITTLE annoying if you kept seeing this over and over. H
 
 /datum/loreblurb/code1
 	title = "PAY ATTENTION"
-	description = "34 15 43 313 26 16 312 61 0 34 15 43 312 53 26"
+	description = "34 15 43 313 26 16 312 61 34 15 43 312 53 26"
+	sound = 'sound/loredump/lore_sting6.ogg'
+
+/datum/loreblurb/apartments
+	title = "APARTMENTS"
+	description = "You're not alone. \n\
+	Whirring and beeping echo throughout the walls."
+	sound = 'sound/loredump/lore_sting6.ogg'
+
+/datum/loreblurb/code2
+	title = "LISTEN CLOSELY"
+	description = "41 231 41 26 312 51 15 52 312 34"
 	sound = 'sound/loredump/lore_sting6.ogg'

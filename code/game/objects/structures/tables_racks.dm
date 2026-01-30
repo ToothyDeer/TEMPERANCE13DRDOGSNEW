@@ -643,9 +643,22 @@
 /obj/structure/table/wood/perserdunsmall/smallwood
 	icon_state = "smallwood"
 
+/obj/structure/table/wood/perserdunsmall/woodtable
+	icon_state = "wood_table"
+
+/obj/structure/table/wood/perserdunsmall/woodtablefine
+	icon_state = "wood_table_fine"
+
 /obj/structure/table/wood/perserdunsmall/smallmetal
 	name = "metal table"
 	icon_state = "smallmetal"
+	attacked_sound = list('sound/combat/hits/onmetal/grille (1).ogg','sound/combat/hits/onmetal/grille (2).ogg','sound/combat/hits/onmetal/grille (3).ogg')
+
+/obj/structure/table/wood/perserdunsmall/smallmetal2
+	icon_state = "reinf_table"
+
+/obj/structure/table/wood/perserdunsmall/smallmetal3
+	icon_state = "htable"
 
 /obj/structure/table/wood/old
 	icon_state = "wood1"
@@ -676,15 +689,19 @@
 
 /obj/structure/table/wood/metal
 	icon_state = "metal1"
+	attacked_sound = list('sound/combat/hits/onmetal/grille (1).ogg','sound/combat/hits/onmetal/grille (2).ogg','sound/combat/hits/onmetal/grille (3).ogg')
 
 /obj/structure/table/wood/metal2
 	icon_state = "metal2"
+	attacked_sound = list('sound/combat/hits/onmetal/grille (1).ogg','sound/combat/hits/onmetal/grille (2).ogg','sound/combat/hits/onmetal/grille (3).ogg')
 
 /obj/structure/table/wood/metal3
 	icon_state = "metal3"
+	attacked_sound = list('sound/combat/hits/onmetal/grille (1).ogg','sound/combat/hits/onmetal/grille (2).ogg','sound/combat/hits/onmetal/grille (3).ogg')
 
 /obj/structure/table/wood/metal4
 	icon_state = "metal4"
+	attacked_sound = list('sound/combat/hits/onmetal/grille (1).ogg','sound/combat/hits/onmetal/grille (2).ogg','sound/combat/hits/onmetal/grille (3).ogg')
 
 /obj/structure/table/wood/funny
 	name = "imposing table"
@@ -714,3 +731,13 @@
 /obj/structure/table/wood/long/mid/alt
 	icon_state = "long_mid"
 	dir = 1
+
+/obj/structure/table/wood/longreif
+	icon_state = "table_horizontal2"
+	attacked_sound = list('sound/combat/hits/onmetal/grille (1).ogg','sound/combat/hits/onmetal/grille (2).ogg','sound/combat/hits/onmetal/grille (3).ogg')
+
+/obj/structure/table/wood/longreif/alt
+	icon_state = "reinf_table4"
+
+/obj/structure/table/wood/talltable
+	icon_state = "talltable"

@@ -1052,3 +1052,24 @@
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 	repairable = FALSE
 	keylock = FALSE
+
+/obj/structure/mineral_door/wood/fancy
+	name = "door"
+	desc = ""
+	icon_state = "fancy"
+	openSound = 'sound/foley/doors/creak.ogg'
+	closeSound = 'sound/foley/doors/shut.ogg'
+	resistance_flags = FLAMMABLE
+	max_integrity = 1000
+	damage_deflection = 12
+	layer = ABOVE_MOB_LAYER
+	keylock = TRUE
+	icon = 'icons/roguetown/misc/doors.dmi'
+	blade_dulling = DULLING_BASHCHOP
+	break_sound = 'sound/combat/hits/onwood/destroywalldoor.ogg'
+	attacked_sound = list('sound/combat/hits/onwood/woodimpact (1).ogg','sound/combat/hits/onwood/woodimpact (2).ogg')
+	repairable = TRUE
+	repair_cost_first = /obj/item/grown/log/tree/small
+	repair_cost_second = /obj/item/grown/log/tree/small	
+	repair_skill = /datum/skill/craft/carpentry
+	smashable = TRUE

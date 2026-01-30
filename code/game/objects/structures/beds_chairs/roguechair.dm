@@ -446,3 +446,65 @@
 	blade_dulling = DULLING_BASHCHOP
 	destroy_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
 	attacked_sound = "woodimpact"
+
+/obj/structure/chair/wood/rogue/generic1
+	icon_state = "genericchair"
+	icon = 'icons/roguetown/misc/structure.dmi'
+	item_chair = /obj/item/chair/rogue/generic1
+	blade_dulling = DULLING_BASHCHOP
+	destroy_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
+	attacked_sound = "woodimpact"
+
+/obj/item/chair/rogue/generic1
+	icon_state = "genericchair"
+
+/obj/structure/chair/wood/rogue/generic2
+	icon_state = "genericchair2"
+	icon = 'icons/roguetown/misc/structure.dmi'
+	item_chair = /obj/item/chair/rogue/generic2
+	blade_dulling = DULLING_BASHCHOP
+	destroy_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
+	attacked_sound = "woodimpact"
+
+/obj/item/chair/rogue/generic2
+	icon_state = "genericchair2"
+
+/obj/structure/chair/wood/rogue/fancy1
+	icon_state = "fancychair"
+	icon = 'icons/roguetown/misc/structure.dmi'
+	item_chair = /obj/item/chair/rogue/fancychair
+	blade_dulling = DULLING_BASHCHOP
+	destroy_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
+	attacked_sound = "woodimpact"
+
+/obj/item/chair/rogue/fancychair
+	icon_state = "fancychair"
+
+/obj/structure/chair/wood/rogue/fancychair2
+	icon_state = "fancychair2"
+	icon = 'icons/roguetown/misc/structure.dmi'
+	item_chair = /obj/item/chair/rogue/fancychair2
+	blade_dulling = DULLING_BASHCHOP
+	destroy_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
+	attacked_sound = "woodimpact"
+
+/obj/item/chair/rogue/fancychair2
+	icon_state = "fancychair2"
+
+/obj/structure/bed/rogue/oldcomfy
+	name = "old bed"
+	desc = "An old bed. The sheets've been eaten away by something."
+	icon_state = "heirsbed"
+	sleepy = 1
+
+/obj/structure/bed/rogue/xbed
+	name = "stripped bed"
+	desc = "It's basically just cloth laid over solid wood."
+	icon_state = "xbed"
+	sleepy = 1
+
+/obj/structure/bed/rogue/bloodybed
+	name = "bloody bed"
+	desc = "Genuinely horrifying."
+	icon_state = "xbed_blood"
+	sleepy = 1

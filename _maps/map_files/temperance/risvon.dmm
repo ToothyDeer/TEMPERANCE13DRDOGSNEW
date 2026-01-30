@@ -126,7 +126,7 @@
 /turf/open/floor/rogue/med,
 /area/rogue/indoors/risvonbase)
 "bf" = (
-/obj/structure/fluff/walldeco/weird{
+/obj/structure/fluff/walldeco/leibware{
 	pixel_x = 32
 	},
 /turf/open/floor/rogue/risvon,
@@ -230,11 +230,11 @@
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/risvonbase)
 "bW" = (
-/obj/structure/chair/wood/rogue/chair5{
-	dir = 8
-	},
 /obj/structure/fluff/walldeco/commandant{
 	pixel_x = 32
+	},
+/obj/structure/chair/wood/rogue/generic2{
+	dir = 8
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
@@ -290,8 +290,10 @@
 "cz" = (
 /obj/structure/table/wood/long_table/mid/alt,
 /obj/structure/fluff/walldeco/blindfolds{
-	pixel_y = -32;
-	layer = 3
+	pixel_y = 3;
+	layer = 3;
+	plane = -5;
+	pixel_x = -2
 	},
 /obj/machinery/light/rogue/wallfire/candle/floorcandle{
 	pixel_y = 2
@@ -398,7 +400,7 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/risvon)
 "du" = (
-/obj/effect/decal/remains/human,
+/obj/effect/decal/remains/corpse/body/body2,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/shelter/town/sargoth)
 "dv" = (
@@ -793,12 +795,12 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/risvon)
 "hf" = (
-/obj/structure/chair/wood/rogue/chair4{
-	dir = 4
-	},
 /obj/machinery/light/rogue/wallfire{
 	pixel_y = 0;
 	pixel_x = -32
+	},
+/obj/structure/chair/wood/rogue/generic2{
+	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/risvonbase)
@@ -915,19 +917,12 @@
 /turf/open/floor/rogue/tile/bath,
 /area/rogue/indoors/risvonbase)
 "ir" = (
-/obj/structure/bed/rogue,
-/obj/structure/fluff/walldeco/weird{
-	pixel_y = 32;
-	pixel_x = 33
+/obj/structure/fluff/railing/border/north,
+/obj/structure/fluff/walldeco/ench{
+	pixel_y = 0;
+	pixel_x = 32
 	},
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 11;
-	layer = 2.8;
-	density = 0
-	},
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldatolate,
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "iu" = (
 /obj/structure/fluff/railing/sandbag{
@@ -1553,6 +1548,9 @@
 	},
 /obj/effect/landmark/start/soldato,
 /obj/effect/landmark/start/soldatolate,
+/obj/structure/fluff/walldeco/leibware{
+	pixel_x = 32
+	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/risvonbase)
 "oi" = (
@@ -1627,7 +1625,9 @@
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "ov" = (
-/obj/structure/table/wood/funny,
+/obj/structure/table/wood/longreif/alt{
+	dir = 4
+	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "oy" = (
@@ -1708,11 +1708,13 @@
 	},
 /area/rogue/indoors/risvonbase)
 "oY" = (
-/obj/structure/closet/crate/roguecloset/metal/metal2,
 /obj/structure/bars/grille,
 /obj/effect/spawner/lootdrop/hightierguns,
 /obj/effect/spawner/lootdrop/hightierguns,
 /obj/effect/spawner/lootdrop/hightierguns,
+/obj/structure/closet/crate/roguecloset/metal/metal2{
+	plane = -5
+	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "pd" = (
@@ -2392,9 +2394,11 @@
 /turf/closed/wall/mineral/rogue/risvon/outercorner/dir8,
 /area/rogue/indoors/risvonbase)
 "tV" = (
-/obj/structure/fluff/railing/funnyend,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
+/obj/structure/chair/wood/rogue/generic1{
+	dir = 1
+	},
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "tW" = (
 /obj/machinery/light/rogue/wallfire/candle/r,
 /obj/structure/fluff/railing/sandbag,
@@ -2544,7 +2548,7 @@
 /obj/item/chair/rogue/fancy{
 	dir = 1
 	},
-/obj/effect/decal/remains/human,
+/obj/effect/decal/remains/corpse/body,
 /turf/open/floor/carpet/red,
 /area/rogue/indoors/shelter/town/sargoth)
 "vz" = (
@@ -2839,6 +2843,14 @@
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
+"ym" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/walldeco/ench{
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "yo" = (
 /obj/structure/mineral_door/wood{
 	lockid = "risvontag";
@@ -2892,9 +2904,7 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/risvon)
 "yL" = (
-/obj/structure/fluff/railing/funnyend{
-	dir = 1
-	},
+/obj/structure/table/wood/longreif/alt,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "yP" = (
@@ -2914,8 +2924,7 @@
 	dir = 2;
 	pixel_x = -1
 	},
-/obj/structure/fluff/walldeco/weird{
-	pixel_y = 0;
+/obj/structure/fluff/walldeco/leibware{
 	pixel_x = -32
 	},
 /turf/open/floor/rogue/metal/barograte,
@@ -3575,6 +3584,10 @@
 	},
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/risvon)
+"DJ" = (
+/obj/structure/chair/wood/rogue/generic1,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "DL" = (
 /obj/structure/fluff/railing/border/west{
 	dir = 4
@@ -3621,7 +3634,7 @@
 /obj/item/chair/rogue/fancy{
 	dir = 2
 	},
-/obj/effect/decal/remains/human,
+/obj/effect/decal/remains/corpse/body/body3,
 /turf/open/floor/carpet/red,
 /area/rogue/indoors/shelter/town/sargoth)
 "Ee" = (
@@ -3792,7 +3805,9 @@
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "FB" = (
-/obj/structure/table/wood/funny/mid,
+/obj/structure/table/wood/longreif{
+	dir = 1
+	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "FD" = (
@@ -3863,7 +3878,7 @@
 /area/rogue/outdoors/risvon)
 "FP" = (
 /obj/structure/mineral_door/wood/wardoor,
-/obj/effect/loretile/code1,
+/obj/effect/spawner/roguemap/code1orgrime,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "FQ" = (
@@ -3907,7 +3922,9 @@
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "Gk" = (
-/obj/structure/table/wood/funny/right,
+/obj/structure/table/wood/longreif{
+	dir = 4
+	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "Gm" = (
@@ -5399,10 +5416,10 @@
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "RY" = (
-/obj/structure/fluff/walldeco/weird{
+/obj/structure/fluff/railing/sandbag,
+/obj/structure/fluff/walldeco/leibware{
 	pixel_y = -32
 	},
-/obj/structure/fluff/railing/sandbag,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "Sd" = (
@@ -5860,11 +5877,11 @@
 	},
 /area/rogue/indoors/risvonbase)
 "Wf" = (
-/obj/structure/chair/wood/rogue/chair4{
-	dir = 4
-	},
 /obj/effect/landmark/start/commandant,
 /obj/effect/landmark/start/commandantlate,
+/obj/structure/chair/wood/rogue/generic2{
+	dir = 4
+	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/risvonbasebar)
 "Wg" = (
@@ -6186,6 +6203,9 @@
 /obj/structure/chair/wood/rogue/throne{
 	pixel_x = 10
 	},
+/obj/structure/fluff/walldeco/ench{
+	pixel_y = 32
+	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/risvonbase)
 "YR" = (
@@ -6196,9 +6216,11 @@
 /turf/open/floor/rogue/med,
 /area/rogue/indoors/risvonbase)
 "YX" = (
-/obj/structure/closet/crate/roguecloset/metal/metal2,
 /obj/structure/bars/grille,
 /obj/effect/spawner/lootdrop/hightierammo,
+/obj/structure/closet/crate/roguecloset/metal/metal2{
+	plane = -5
+	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "Za" = (
@@ -6307,6 +6329,14 @@
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
+"ZQ" = (
+/obj/item/trash/applecore,
+/obj/effect/decal/remains/corpse/oldbody{
+	plane = -6;
+	pixel_y = 25
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town/sargoth)
 
 (1,1,1) = {"
 jR
@@ -7509,9 +7539,9 @@ KF
 OZ
 DO
 xK
-fv
+DJ
 JQ
-HR
+tV
 lA
 Tx
 fn
@@ -7639,9 +7669,9 @@ fz
 tc
 CS
 iZ
-fv
+DJ
 Oc
-HR
+tV
 gm
 Tx
 fn
@@ -7769,9 +7799,9 @@ fz
 vW
 Tx
 cB
-fv
+DJ
 Wq
-HR
+tV
 lA
 Tx
 qd
@@ -7899,9 +7929,9 @@ fz
 vW
 Tx
 xK
-fv
+DJ
 Oc
-HR
+tV
 lA
 Tx
 fn
@@ -8029,9 +8059,9 @@ fz
 vW
 Tx
 rb
-fv
+DJ
 Wq
-HR
+tV
 xK
 Tx
 Id
@@ -8159,9 +8189,9 @@ fz
 vW
 Tx
 xK
-fv
+DJ
 Oc
-HR
+tV
 xK
 Tx
 fn
@@ -8289,9 +8319,9 @@ fz
 vW
 Tx
 iZ
-fv
+DJ
 zB
-HR
+tV
 gm
 Tx
 fn
@@ -13475,9 +13505,9 @@ IW
 OT
 xK
 xK
-fH
+ym
 Dw
-Qw
+ir
 xK
 TK
 EU
@@ -16827,7 +16857,7 @@ nW
 jR
 jR
 vM
-tV
+By
 Gk
 By
 By
@@ -19613,7 +19643,7 @@ cn
 cn
 KK
 XG
-du
+Fk
 KK
 FT
 FT
@@ -19742,7 +19772,7 @@ cn
 cn
 cn
 KK
-mi
+ZQ
 eB
 KK
 FT
@@ -31153,7 +31183,7 @@ HB
 HB
 Su
 oa
-ir
+Dk
 FF
 Dk
 Tx

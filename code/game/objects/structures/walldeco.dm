@@ -444,55 +444,111 @@
 	icon_state = "doom"
 	layer = ABOVE_MOB_LAYER
 
-//computers (non-functional)
-/obj/structure/fluff/walldeco/computer
-	density = TRUE
-	icon_state = "small"
+/obj/structure/fluff/walldeco/hands
+	name = "hands"
+	desc = "A pale man brings his open palms to the sky."
+	icon_state = "poster1"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/cameras
-	icon_state = "cameras"
+/obj/structure/fluff/walldeco/spirit
+	name = "spirit"
+	desc = "Tragedy."
+	icon_state = "poster2"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/request
-	icon_state = "request"
+/obj/structure/fluff/walldeco/soyjack
+	name = "screamer"
+	desc = "TERROR!"
+	icon_state = "poster3"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/shuttle
-	icon_state = "shuttle"
+/obj/structure/fluff/walldeco/shreds
+	name = "shreds"
+	desc = "The destruction of information."
+	icon_state = "idk"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/operating
-	icon_state = "operating"
+/obj/structure/fluff/walldeco/spoiler3
+	name = "???"
+	desc = "A bullet shooting through the sky."
+	icon_state = "spoiler3"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/smallb
-	icon_state = "smallb"
+/obj/structure/fluff/walldeco/spoiler4
+	name = "???"
+	desc = "A helmet in a red desert."
+	icon_state = "spoiler4"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/requestb
-	icon_state = "requestb"
+/obj/structure/fluff/walldeco/kingsrow
+	name = "KING'S ROW"
+	desc = "The replacement for the old, quadrant-based flag."
+	icon_state = "kingsrow"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/largeb
-	icon_state = "largeb"
+/obj/structure/fluff/walldeco/leibware
+	name = "leibware"
+	desc = "I think that's a brain."
+	icon_state = "leibware"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/overwatchb
-	icon_state = "overwatchb"
+/obj/structure/fluff/walldeco/ench
+	name = "Lord Ankhefensekhmet of Djet"
+	desc = "A politician. Candidate to become the next Lifreer."
+	icon_state = "ench"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/overwatch_mainb
-	icon_state = "overwatch_mainb"
+/obj/structure/fluff/walldeco/merchie
+	name = "gilded"
+	desc = "Come get your guns."
+	icon_state = "merchie"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/tvoff
-	icon_state = "tvoff"
+/obj/structure/fluff/walldeco/beware
+	name = "beware"
+	desc = "An imposing caricature of a Black Beast."
+	icon_state = "beware"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/smalloff
-	icon_state = "smalloff"
+/obj/structure/fluff/walldeco/progress
+	name = "report"
+	desc = "A progress report detailing information about Perserdunian and Risvonian forces. It looks like King's Row isn't first contact between the two factions."
+	icon_state = "progress"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/largeoff
-	icon_state = "largeoff"
+/obj/structure/fluff/walldeco/rush
+	name = "rush"
+	desc = "Over the top, Imperials."
+	icon_state = "rush"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/shuttleoff
-	icon_state = "shuttleoff"
+/obj/structure/fluff/walldeco/spoiler5
+	name = "???"
+	desc = "41 213 16 15 52 41 34 123 16 52 121 313 34. There's something white and tall shining light onto an incredible amount of bodies."
+	icon_state = "spoiler5"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/overwatchoff
-	icon_state = "overwatchoff"
+/obj/structure/fluff/walldeco/desert
+	name = "desert"
+	desc = "A skull."
+	icon_state = "desert"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/overwatch_mainoff
-	icon_state = "overwatch_mainoff"
+/obj/structure/fluff/walldeco/kingofnil
+	name = "king"
+	desc = "A photo. The boney crown makes you feel weird."
+	icon_state = "bpic0"
+	layer = ABOVE_MOB_LAYER
 
-/obj/structure/fluff/walldeco/computer/captainoff
-	icon_state = "captainoff"
+/obj/structure/fluff/walldeco/vent
+	name = "vent"
+	desc = "The air's still."
+	icon_state = "vent"
+	layer = ABOVE_MOB_LAYER
+
+/obj/structure/fluff/walldeco/vent/vent2
+	icon_state = "vent2"
+
+/obj/structure/fluff/walldeco/vent/vent3
+	desc = "It's broken."
+	icon_state = "vent3"

@@ -51,7 +51,7 @@
 	pixel_y = 21;
 	pixel_x = -3
 	},
-/obj/effect/decal/remains/human,
+/obj/effect/decal/remains/corpse/body/body3,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "be" = (
@@ -1083,7 +1083,10 @@
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "pp" = (
-/obj/structure/fluff/traveltile,
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "apartmentin";
+	aportalid = "apartmentout"
+	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "pq" = (
@@ -3260,8 +3263,11 @@
 	},
 /area/rogue/indoors/perserdunbase)
 "TW" = (
-/obj/structure/fluff/traveltile,
 /obj/effect/decal/cleanable/blood/tracks,
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "apartmentin";
+	aportalid = "apartmentout"
+	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "TX" = (
