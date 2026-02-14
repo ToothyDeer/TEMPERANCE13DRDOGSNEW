@@ -1,4 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/structure/crater{
+	pixel_y = -10;
+	pixel_x = -21
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "ai" = (
 /mob/living/carbon/human/species/skeleton/npc/easy,
 /turf/open/floor/rogue/dirt,
@@ -18,10 +25,6 @@
 /area/rogue)
 "aD" = (
 /obj/structure/chair/stool/rogue,
-/turf/open/floor/rogue/cobble,
-/area/rogue)
-"bb" = (
-/obj/effect/mine/explosive,
 /turf/open/floor/rogue/cobble,
 /area/rogue)
 "bi" = (
@@ -120,6 +123,12 @@
 "el" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/rogue/dirt/road,
+/area/rogue)
+"es" = (
+/obj/structure/crater{
+	dir = 4
+	},
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "ew" = (
 /obj/structure/spider/cocoon{
@@ -312,6 +321,12 @@
 	},
 /turf/open/floor/rogue/snow,
 /area/rogue)
+"lu" = (
+/obj/structure/crater{
+	dir = 1
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "lv" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	icon_state = "bloodpaw1"
@@ -330,6 +345,14 @@
 	icon_state = "floor6"
 	},
 /turf/open/floor/rogue/snow,
+/area/rogue)
+"mS" = (
+/obj/structure/crater{
+	dir = 1;
+	pixel_x = -13;
+	pixel_y = -12
+	},
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "mV" = (
 /mob/living/simple_animal/hostile/rogue/skeleton/bow,
@@ -366,14 +389,6 @@
 "oa" = (
 /obj/structure/fluff/walldeco/chains,
 /turf/open/water/bloody,
-/area/rogue)
-"od" = (
-/obj/structure/crater{
-	dir = 4;
-	pixel_y = -4;
-	pixel_x = -13
-	},
-/turf/open/water/swamp,
 /area/rogue)
 "og" = (
 /turf/open/floor/carpet/red,
@@ -440,13 +455,6 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
-"qT" = (
-/obj/structure/crater{
-	pixel_y = -10;
-	pixel_x = -21
-	},
-/turf/open/floor/rogue/dirt,
-/area/rogue)
 "ry" = (
 /obj/structure/fluff/railing/border/west,
 /obj/structure/fluff/railing/border{
@@ -498,12 +506,6 @@
 "tC" = (
 /mob/living/carbon/human/species/skeleton/npc/easy,
 /turf/open/floor/rogue/dirt/road,
-/area/rogue)
-"tL" = (
-/obj/structure/crater{
-	dir = 4
-	},
-/turf/open/floor/rogue/dirt,
 /area/rogue)
 "tV" = (
 /turf/open/floor/carpet/purple,
@@ -717,12 +719,6 @@
 /obj/structure/fluff/walldeco/bigpainting/lake,
 /turf/open/water/bloody,
 /area/rogue)
-"AM" = (
-/obj/structure/crater{
-	dir = 1
-	},
-/turf/open/floor/rogue/dirt,
-/area/rogue)
 "Bc" = (
 /obj/structure/flora/roguetree/pine{
 	icon_state = "pine1-snow"
@@ -738,6 +734,12 @@
 "Bf" = (
 /obj/item/rogueweapon/sword/decorated,
 /turf/open/floor/rogue/naturalstone,
+/area/rogue)
+"Bg" = (
+/obj/structure/crater{
+	dir = 8
+	},
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "By" = (
 /obj/effect/spawner/roguemap/hauntpile{
@@ -771,6 +773,10 @@
 	icon_state = "pine4-snow"
 	},
 /turf/open/floor/rogue/snowpatchy,
+/area/rogue)
+"Cr" = (
+/obj/effect/mine/explosive,
+/turf/open/floor/rogue/cobble,
 /area/rogue)
 "CJ" = (
 /turf/open/water/bloody,
@@ -841,6 +847,10 @@
 	},
 /obj/structure/table/wood/folding,
 /turf/open/floor/rogue/grasscold,
+/area/rogue)
+"En" = (
+/obj/effect/mine/explosive,
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "EE" = (
 /obj/structure/fluff/railing/border/west{
@@ -1056,6 +1066,14 @@
 	},
 /turf/open/floor/rogue/grasscold,
 /area/rogue)
+"Jo" = (
+/obj/structure/crater{
+	dir = 2;
+	pixel_y = -3;
+	pixel_x = -7
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "Jy" = (
 /obj/structure/mineral_door/wood/donjon/stone{
 	locked = 1
@@ -1226,14 +1244,6 @@
 /obj/item/roguegem/random,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue)
-"OD" = (
-/obj/structure/crater{
-	dir = 2;
-	pixel_y = -3;
-	pixel_x = -7
-	},
-/turf/open/floor/rogue/dirt,
-/area/rogue)
 "OP" = (
 /obj/effect/decal/cleanable/blood/drip{
 	icon_state = "floor6"
@@ -1246,22 +1256,12 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/rogue)
-"Pn" = (
-/obj/structure/crater{
-	dir = 8
-	},
-/turf/open/floor/rogue/dirt,
-/area/rogue)
 "Pq" = (
 /obj/structure/fluff/railing/border/west{
 	dir = 4;
 	pixel_x = 4
 	},
 /turf/open/water/cleanshallow,
-/area/rogue)
-"Pr" = (
-/obj/effect/mine/explosive,
-/turf/open/floor/rogue/dirt,
 /area/rogue)
 "Pz" = (
 /obj/structure/fluff/walldeco/chains,
@@ -1386,6 +1386,14 @@
 	icon_state = "pine3-snow"
 	},
 /turf/open/floor/rogue/snowrough,
+/area/rogue)
+"Sz" = (
+/obj/structure/crater{
+	dir = 4;
+	pixel_y = -4;
+	pixel_x = -13
+	},
+/turf/open/water/swamp,
 /area/rogue)
 "SB" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf,
@@ -1562,14 +1570,6 @@
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/eaglebeak/lucerne,
 /turf/open/floor/rogue/cobble,
-/area/rogue)
-"Zw" = (
-/obj/structure/crater{
-	dir = 1;
-	pixel_x = -13;
-	pixel_y = -12
-	},
-/turf/open/floor/rogue/dirt,
 /area/rogue)
 "ZI" = (
 /obj/structure/flora/roguetree/pine{
@@ -71177,7 +71177,7 @@ wK
 wK
 wK
 wK
-Zw
+mS
 wK
 wK
 wK
@@ -72083,7 +72083,7 @@ wK
 wK
 wK
 wK
-tL
+es
 wK
 wK
 wK
@@ -72327,7 +72327,7 @@ wK
 wK
 wK
 wK
-Pn
+Bg
 wK
 wK
 wK
@@ -72763,7 +72763,7 @@ wK
 wK
 wK
 wK
-AM
+lu
 wK
 YE
 wK
@@ -72774,7 +72774,7 @@ RH
 RH
 RH
 wK
-Pr
+En
 wK
 wK
 wK
@@ -73900,7 +73900,7 @@ wK
 wK
 wK
 wK
-OD
+Jo
 wK
 wK
 YE
@@ -74583,7 +74583,7 @@ wK
 wK
 wK
 wK
-Pr
+En
 wK
 wK
 wK
@@ -74809,7 +74809,7 @@ wK
 wK
 wK
 wK
-OD
+Jo
 wK
 wK
 wK
@@ -75493,7 +75493,7 @@ wK
 wK
 wK
 wK
-tL
+es
 wK
 wK
 wK
@@ -77092,7 +77092,7 @@ wK
 wK
 YE
 YE
-od
+Sz
 YE
 SL
 SL
@@ -79809,7 +79809,7 @@ SL
 Xp
 wK
 wK
-Pr
+En
 wK
 wK
 wK
@@ -80270,7 +80270,7 @@ YE
 wK
 wK
 wK
-qT
+ab
 wK
 YE
 YE
@@ -80279,7 +80279,7 @@ YE
 wK
 wK
 wK
-Pr
+En
 wK
 RH
 RH
@@ -84146,7 +84146,7 @@ RH
 wK
 wK
 wK
-Pr
+En
 wK
 wK
 wK
@@ -85049,7 +85049,7 @@ wK
 wK
 wK
 wK
-Pr
+En
 wK
 wK
 wK
@@ -86642,7 +86642,7 @@ wK
 RH
 wK
 wK
-Pr
+En
 wK
 wK
 wK
@@ -87084,7 +87084,7 @@ SL
 SL
 SL
 SL
-bb
+Cr
 SL
 SL
 SL
@@ -87298,11 +87298,11 @@ nz
 nz
 nz
 wK
-nz
-nz
-nz
-nz
-nz
+wK
+wK
+wK
+wK
+wK
 SL
 SL
 SL
@@ -87526,8 +87526,8 @@ nz
 nz
 wK
 wK
-nz
-nz
+wK
+wK
 Xp
 SL
 nz
@@ -87753,8 +87753,8 @@ nz
 nz
 nz
 wK
-nz
-nz
+wK
+wK
 Xp
 SL
 nz
@@ -87980,8 +87980,8 @@ nz
 nz
 nz
 wK
-nz
-nz
+wK
+wK
 Xp
 Xp
 Xp
@@ -88452,7 +88452,7 @@ wK
 wK
 wK
 wK
-Pr
+En
 wK
 RH
 RH
