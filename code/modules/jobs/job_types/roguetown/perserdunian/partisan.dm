@@ -9,9 +9,9 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_ages = list(AGE_ADULT)
 
-	tutorial = "You're a backliner for the Empire. \
+	tutorial = "You've been temporarily reassigned to work as a backliner for the Empire. \
 				Generally speaking, you're prohibited to fight - except in the case of self defense. \
-				Any rank, ranging from Armsman to Grandmaster can be a temporary Camp Follower. It's similar to being 'off-duty'. \
+				Any rank, ranging from Armsman to Grandmaster can be a temporary Partisan. It's similar to being assigned leave. \
 				You're allowed to hold weapons. Generally, you hold no real responsibilities other than the maintenance of armors." 
 
 	outfit = /datum/outfit/job/roguetown/partisan

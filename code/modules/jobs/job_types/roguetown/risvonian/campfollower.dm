@@ -9,9 +9,9 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_ages = list(AGE_ADULT)
 
-	tutorial = "You're a backliner for the Ziggurate. \
+	tutorial = "You've temporarily been reassigned as a backliner for the Ziggurate. \
 				Generally speaking, you're prohibited to fight - except in the case of self defense. \
-				Any rank, ranging from Soldato to Commandant can be a temporary Camp Follower. It's similar to being 'off-duty'. \
+				Any rank, ranging from Soldato to Commandant can be a temporary Camp Follower. It's similar to being assigned leave'. \
 				Women are also allowed in this selection, though are entirely prohibited from holding any kind of weaponry." 
 
 	outfit = /datum/outfit/job/roguetown/campfollower

@@ -11,7 +11,9 @@
 	advclass_cat_rolls = list(CTAG_AUXILIARIST = 20)
 
 	tutorial = "You are a supporter of Perserdun's war effort. \
-				Whenever you are a leech or an ingeniare, you still carry a gun and know how to use it." 
+				Whenever you are a leech or an ingeniare, you still carry a gun and know how to use it.\
+				You've been granted a cloth to apply to your helmet in order to help identify what you are.\
+				Red is for Ingenaires, Blue is for Leeches. It's mandatory for you to wear this." 
 
 	outfit = /datum/outfit/job/roguetown/auxiliarist
 	display_order = JDO_AUXILIARIST
@@ -73,6 +75,7 @@
 		/obj/item/ammo_box/handfuls/rifle = 4,
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
 		/obj/item/gasgrenade = 2,
+		/obj/item/natural/cloth,
 	)
 	H.adjust_skillrank(/datum/skill/misc/medicine, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
@@ -108,6 +111,7 @@
 		/obj/item/natural/bundle/stick = 2,
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
 		/obj/item/smokegrenade = 2,
+		/obj/item/natural/cloth,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
