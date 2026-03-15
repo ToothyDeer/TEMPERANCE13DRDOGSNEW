@@ -52,6 +52,7 @@
 	id = /obj/item/clothing/ring/gold
 	neck = /obj/item/storage/keyring/merchant
 	backr = /obj/item/storage/backpack/rogue/satchel
+	wrists = /obj/item/scomstone/kingsrow
 	H.change_stat("intelligence", 2)
 	H.change_stat("perception", 3)
 	H.change_stat("strength", -1)

@@ -1407,8 +1407,9 @@
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors/shelter/town)
 "iL" = (
-/obj/item/gun/ballistic/shotgun/eternal,
 /obj/structure/rack/rogue/shelf/biggest,
+/obj/effect/spawner/lootdrop/hightierguns,
+/obj/effect/spawner/lootdrop/hightierguns,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
 "iN" = (
@@ -1789,10 +1790,20 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
-"lK" = (
+"lJ" = (
 /obj/structure/rack/rogue/shelf/biggest,
-/obj/item/gun/ballistic/rifle/repeater/patience,
+/obj/effect/spawner/lootdrop/hightierammo,
+/obj/effect/spawner/lootdrop/hightierammo,
+/obj/effect/spawner/lootdrop/hightierammo,
+/obj/effect/spawner/lootdrop/hightierammo,
 /turf/open/floor/rogue/brown,
+/area/rogue/indoors/shelter/town)
+"lK" = (
+/obj/structure/closet/crate/roguecloset/dark,
+/obj/item/roguecoin/gold/pile,
+/obj/item/roguecoin/gold/pile,
+/obj/item/roguecoin/gold/pile,
+/turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "lP" = (
 /turf/closed/mineral/rogue/bedrock,
@@ -6548,8 +6559,17 @@
 /area/rogue/outdoors/beach/forest/south)
 "SF" = (
 /obj/structure/rack/rogue/shelf/biggest,
-/obj/effect/spawner/lootdrop/hightierammo,
-/obj/effect/spawner/lootdrop/hightierammo,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
+/obj/item/scomstone/kingsrow,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
 "SL" = (
@@ -59243,7 +59263,7 @@ yq
 oI
 cI
 ot
-ba
+lK
 uf
 Ot
 uf
@@ -63550,8 +63570,8 @@ cd
 cd
 cd
 uf
-SF
-lK
+lJ
+iL
 rK
 uf
 aT
