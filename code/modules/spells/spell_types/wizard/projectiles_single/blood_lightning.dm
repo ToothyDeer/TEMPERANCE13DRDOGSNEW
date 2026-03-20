@@ -9,7 +9,7 @@
 	projectile_type = /obj/projectile/magic/bloodlightning
 	releasedrain = 30
 	chargedrain = 1
-	chargetime = 25
+	chargetime = 15
 	recharge_time = 15 SECONDS
 	warnie = "spellwarning"
 	no_early_release = TRUE
