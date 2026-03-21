@@ -1,10 +1,10 @@
 /datum/job/roguetown/tuoro
-	title = "Tuoro"
+	title = "Bastiono"
 	flag = TUORO
 	department_flag = RISVON
 	faction = "Station"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 1
+	spawn_positions = 1
 	allowed_races = RACES_CONSCRIPT
 	allowed_sexes = list(MALE)
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED)
@@ -61,12 +61,12 @@
 		/obj/item/rogueweapon/stoneaxe/woodcut/risvon,
 		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew,
 	)
-	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE) // j-man wrestling just to grab and punch, anyone with a str statpack can break out as it's just 1 above
+	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/unarmed, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE) // THEY DO NOT GET SWORDS, THEY ARE SAVAGES, THEY USE AXES
+	H.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/axes, 4, TRUE) // they are also better than soldatos at axes, gives them a 10% chance to better get by parries
+	H.adjust_skillrank(/datum/skill/combat/axes, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE)
@@ -75,9 +75,8 @@
 	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/weaponsmithing, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
-	H.change_stat("strength", 2) // roid rage mfs on them 24/7 percs
-	H.change_stat("constitution", 3) // extra con in exchange for no guns
-	H.change_stat("endurance", 2)
+	H.change_stat("constitution", 1)
+	H.change_stat("endurance", 1)
 	H.change_stat("perception", 2)
 	H.change_stat("speed", 2)
 	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
