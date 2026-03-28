@@ -19,7 +19,7 @@
 	switch(classchoice)
 
 		if("Private Investigator")
-			to_chat(H, span_warning("You might just be a bandit, or a cowboy lover. You carry a mass-produced revolver."))
+			to_chat(H, span_warning("Sent here by someone lookin' for something or just passin' buy for a job, whatever it may be, your best pal in all of this is your revolver."))
 			armor = /obj/item/clothing/suit/roguetown/armor/leather
 			backl = /obj/item/storage/backpack/rogue/satchel
 			shoes = /obj/item/clothing/shoes/roguetown/boots
@@ -41,8 +41,8 @@
 				)
 			H.adjust_skillrank(/datum/skill/misc/tracking, 4, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/knives, 3, TRUE)
-			H.adjust_skillrank(/datum/skill/combat/revolvers, 2, TRUE)
-			H.adjust_skillrank(/datum/skill/combat/maces, 3, TRUE)
+			H.adjust_skillrank(/datum/skill/combat/revolvers, 3, TRUE)
+			H.adjust_skillrank(/datum/skill/combat/maces, 2, TRUE)
 			H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
@@ -62,7 +62,7 @@
 			H.set_blindness(0)
 			H.cmode_music = 'sound/music/cmode/adventurer/combat_gunman.ogg'
 
-		if("Debt Collector") //code in pls
+		if("Debt Collector")
 			
 			to_chat(H, span_warning("You're probably from a gang. Or, you happened to kill whoever held the pistol before you. Make some money, grab some guns. Try not to die."))
 			armor = /obj/item/clothing/suit/roguetown/armor/leather

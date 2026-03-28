@@ -8,7 +8,7 @@
 	category_tags = list(CTAG_ADVENTURER, CTAG_COURTAGENT)
 	classes = list("Perpretrator" = "In all honesty, you're probably a criminal. You have a double-barreled shotgun.",
 					"Desperado" = "You might just be a bandit, or a cowboy lover. You carry a mass-produced revolver.",
-					"Gangster" = "You're probably from a gang. Or, you happened to kill whoever held the pistol before you. Make some money, grab some guns. Try not to die.",
+					"Gangster" = "You're probably from a gang. Or, you happened to kill whoever held the pistol before you. Make some money, grab some guns. Try not to die.",)
 
 /datum/outfit/job/roguetown/adventurer/gunslinger/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -105,7 +105,7 @@
 			H.set_blindness(0)
 			H.cmode_music = 'sound/music/cmode/adventurer/combat_gunman.ogg'
 
-		if("Gangster") //code in pls
+		if("Gangster")
 			
 			to_chat(H, span_warning("You're probably from a gang. Or, you happened to kill whoever held the pistol before you. Make some money, grab some guns. Try not to die."))
 			armor = /obj/item/clothing/suit/roguetown/armor/leather
