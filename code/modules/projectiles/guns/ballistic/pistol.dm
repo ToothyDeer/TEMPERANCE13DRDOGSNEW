@@ -152,8 +152,8 @@
 /obj/item/gun/ballistic/pistol/luger
     name = "KR 'Confessor'"
     desc = "A recently produced kings row pistol, featuring a distinctive slide that jump up each time it fires. With a 8 round magazine, and a decent cartridge, it's a solid choice for a sidearm."
-    icon_state = "colt"
-    item_state = "colt"
+    icon_state = "luger"
+    item_state = "luger"
     w_class = WEIGHT_CLASS_SMALL
     mag_type = /obj/item/ammo_box/magazine/luger
     slowdown = 0.15
@@ -167,9 +167,9 @@
 
 /obj/item/gun/ballistic/pistol/offiseroluger
     name = "KR 'Galinha'"
-    desc = "In the war between the Ziggurate and the Perserdun Empire, Kings row supplies both sides, as long as both agree to leave them out of the mess, this pistol is an old relic of those supplies. Given to them many years ago, the words spoken before handing over those pieces of overpolished black metal have been long forgotten."
-    icon_state = "luger"
-    item_state = "luger"
+    desc = "In the war between the Ziggurate and the Perserdun Empire, Kings row supplies both sides, as long as both agree to leave them out of the mess, this pistol is an old relic of those supplies. Given to them many years ago, the heartfelt words spoken before handing over those pieces of overpolished black metal have been long forgotten."
+    icon_state = "officerluger"
+    item_state = "officerluger"
     w_class = WEIGHT_CLASS_SMALL
     mag_type = /obj/item/ammo_box/magazine/luger
     slowdown = 0.15
