@@ -31,16 +31,17 @@
 	shoes = /obj/item/clothing/shoes/roguetown/boots
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/heavy/bulwark
 	pants = /obj/item/clothing/under/roguetown/heavy_leather_pants
-	belt = /obj/item/storage/belt/rogue/leather/black
-	beltl = /obj/item/flashlight/flare/torch/lantern
+	belt = /obj/item/storage/belt/rogue/leather/black/soldier
+	beltl = /obj/item/gun/ballistic/pistol/luger
 	beltr = /obj/item/storage/belt/rogue/pouch/stim
 	gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
 	wrists = /obj/item/scomstone/kingsrow
-	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/swords, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/pistols, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
@@ -70,12 +71,14 @@
 
 /datum/outfit/job/roguetown/bulwark/shotgun/pre_equip(mob/living/carbon/human/H)
 	backl = /obj/item/gun/ballistic/shotgun/eternal
-	backr = /obj/item/storage/backpack/rogue/satchel/chestrig
+	backr = /obj/item/storage/backpack/rogue/backpack
 	backpack_contents = list(
 		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew = 2,
 		/obj/item/ammo_box/handfuls/shotgun = 6,
-		/obj/item/storage/belt/rogue/pouch/coins/mid,
-		/obj/item/storage/keyring/gatemaster,
+		/obj/item/storage/belt/rogue/pouch/coins/mid = 1,
+		/obj/item/storage/keyring/gatemaster = 1,
+		/obj/item/flashlight/flare/torch/lantern = 1,
+		/obj/item/ammo_box/magazine/luger = 3,
 	)
 	H.adjust_skillrank(/datum/skill/combat/shotguns, 4, TRUE)
 
@@ -87,12 +90,14 @@
 
 /datum/outfit/job/roguetown/bulwark/rifle/pre_equip(mob/living/carbon/human/H)
 	backl = /obj/item/gun/ballistic/rifle/reaper
-	backr = /obj/item/storage/backpack/rogue/satchel/chestrig
+	backr = /obj/item/storage/backpack/rogue/backpack
 	backpack_contents = list(
 		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew = 2,
 		/obj/item/ammo_box/clip/reaper = 6,
-		/obj/item/storage/belt/rogue/pouch/coins/mid,
-		/obj/item/storage/keyring/gatemaster,
+		/obj/item/storage/belt/rogue/pouch/coins/mid = 1,
+		/obj/item/storage/keyring/gatemaster = 1,
+		/obj/item/flashlight/flare/torch/lantern = 1,
+		/obj/item/ammo_box/magazine/luger = 3,
 	)
 	H.adjust_skillrank(/datum/skill/combat/rifles, 4, TRUE)
 

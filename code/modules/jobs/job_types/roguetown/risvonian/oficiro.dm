@@ -44,8 +44,8 @@
 	head = /obj/item/clothing/head/roguetown/helmet/kettle/iron/oficiro
 	mask = /obj/item/clothing/mask/rogue/gasmask/risvonmask
 	neck = /obj/item/clothing/neck/roguetown/chaincoif
-	belt = /obj/item/storage/belt/rogue/leather/black
-	beltl = /obj/item/flashlight/flare/torch/lantern
+	belt = /obj/item/storage/belt/rogue/leather/black/soldier
+	beltl = /obj/item/gun/ballistic/pistol/offiseroluger
 	beltr = /obj/item/storage/belt/rogue/pouch/ammobag
 	wrists = /obj/item/scomstone
 	gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
@@ -54,12 +54,12 @@
 	backr = /obj/item/storage/backpack/rogue/backpack/risvon
 	backpack_contents = list(
 		/obj/item/ammo_box/handfuls/rattlesnake = 4,
-		/obj/item/rogueweapon/huntingknife/idagger/steel,
 		/obj/item/storage/belt/rogue/pouch/coins/mid,
 		/obj/item/smokegrenade = 2,
+		/obj/item/ammo_box/magazine/luger = 3,
 		/obj/item/grenade,
 		/obj/item/rogueweapon/stoneaxe/woodcut/risvon,
-		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew,
+		/obj/item/flashlight/flare/torch/lantern,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
@@ -72,6 +72,7 @@
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/rifles, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/pistols, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
 	H.change_stat("constitution", 1)

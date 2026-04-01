@@ -30,6 +30,17 @@
 	icon_state = "bullet_proj"
 	damage = 30
 
+/obj/projectile/bullet/a45acp
+	name = ".45 ACP bullet"
+	icon_state = "bullet_proj"
+	damage = 48
+
+/obj/projectile/bullet/a380
+    name = ".380 ACP bullet"
+    icon_state = "bullet_proj"
+    damage = 50
+    armor_penetration = 30
+
 // shotgun
 
 /obj/projectile/bullet/shotgun_slug
@@ -54,3 +65,19 @@
 		damage -= tile_dropoff
 	if(damage < 0)
 		qdel(src)
+
+//hmg
+/obj/projectile/bullet/a762x59 //perserdun mg
+	name = "7.62x59mm bullet"
+	damage = 70
+	armor_penetration = 10
+
+/obj/projectile/bullet/a303 //risvon mg 
+	name = ".303 bullet"
+	damage = 70
+	armor_penetration = 10
+
+/obj/projectile/bullet/a50d //kingsrow mg
+	name = ".50D bullet"
+	damage = 100
+	armor_penetration = 80
