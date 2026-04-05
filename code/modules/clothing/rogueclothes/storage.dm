@@ -511,7 +511,7 @@
 
 /obj/item/storage/backpack/rogue/backpack/risvon
 	name = "bagsack"
-	desc = "Product of the Ziggurate's national WAR MACHINE."
+	desc = "Product of the Dictate's national WAR MACHINE."
 	icon_state = "EB_backpack"
 	item_state = "EB_backpack"
 

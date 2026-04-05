@@ -12,7 +12,7 @@
 
 	tutorial = "You are the commanding officer of the local Risvon Capitro. Or Chapter, if you're a scrub. \
 				You are aware of the discovery of a new WAR MACHINE in the local area. \
-				Your main goal is to claim the entire production site for the Ziggurate, while also beating off any foreign intruders. \
+				Your main goal is to claim the entire production site for the Dictate, while also beating off any foreign intruders. \
 				You're on the same intelligence level as an Oficiro, in terms of raw knowledge about the state. You were handpicked by higher ranks for your performance."
 
 	outfit = /datum/outfit/job/roguetown/commandant

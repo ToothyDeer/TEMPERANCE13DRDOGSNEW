@@ -9,7 +9,7 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED)
 
-	tutorial = "You are a magician within the Ziggurate force. \
+	tutorial = "You are a magician within the Dictate's forces. \
 				You're attached to each Cadre, acting as both a means to increase Soldato strength and to tend to wounds." 
 
 	outfit = /datum/outfit/job/roguetown/servisto
