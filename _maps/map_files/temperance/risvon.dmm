@@ -557,7 +557,7 @@
 "fi" = (
 /obj/structure/mineral_door/wood{
 	lockid = "risvontag";
-	name = "PRISONER TRANSFER"
+	name = "KASPAFISTO"
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
@@ -5604,6 +5604,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/old,
+/obj/effect/landmark/start/kaspafisto,
+/obj/effect/landmark/start/kaspafistolate,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "SB" = (
