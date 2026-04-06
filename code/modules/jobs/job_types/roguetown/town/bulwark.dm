@@ -32,7 +32,7 @@
 	armor = /obj/item/clothing/suit/roguetown/armor/plate/modern/blacksteel_full_plate/bulwark
 	pants = /obj/item/clothing/under/roguetown/platelegs/blacksteel/modern/bulwark
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
-	beltl = /obj/item/gun/ballistic/pistol/luger
+	beltl = /obj/item/gun/ballistic/rifle/repeater/luger
 	beltr = /obj/item/storage/belt/rogue/pouch/stim
 	gloves = /obj/item/clothing/gloves/roguetown/blacksteel/modern/plategloves/bulwark
 	neck = /obj/item/clothing/neck/roguetown/bevor
