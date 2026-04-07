@@ -100,6 +100,7 @@
 
 /obj/item/gun/ballistic/heavy_mg/afterattack(atom/A, mob/user)
 	if(check_direction(user, A))
+		update_pixels()
 		return ..() //fire gun
 	else
 		rotate_to(user, A)
@@ -127,6 +128,7 @@
 /obj/item/gun/ballistic/heavy_mg/attack_hand(mob/user)
 	var/grip_dir = reverse_direction(dir)
 	var/turf/T = get_step(src.loc, grip_dir)
+	var/mob/living/M = user
 	if(user.loc == T)
 		if(!(M.mobility_flags & MOBILITY_STAND))	
 			return
@@ -141,7 +143,7 @@
 /obj/item/gun/ballistic/heavy_mg/buckle_mob(mob/user, force = FALSE, check_loc = TRUE)
 	started_using(user)
 	..()
-	update_pixels(user) //nightmarish but funcional shitcode. deal with it
+	update_pixels(user) 
 
 
 /obj/item/gun/ballistic/heavy_mg/attack_right(mob/user)
