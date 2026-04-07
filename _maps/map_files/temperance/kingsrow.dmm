@@ -794,6 +794,10 @@
 /obj/item/toy/cards/deck,
 /turf/open/floor/rogue/med,
 /area/rogue/indoors/shelter/town)
+"eN" = (
+/obj/effect/landmark/mapGenerator/rogue/kingsrow,
+/turf/closed/mineral/rogue/bedrock,
+/area/rogue/outdoors)
 "eS" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/brflowers,
@@ -865,6 +869,10 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
+"fk" = (
+/obj/machinery/light/roguestreet/midlamp,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/beach/forest/south)
 "fl" = (
 /obj/effect/decal/carpet/square{
 	dir = 4;
@@ -59265,7 +59273,7 @@ Ot
 Ot
 Ot
 Ot
-Ot
+eN
 "}
 (2,1,2) = {"
 Ot
@@ -70786,7 +70794,7 @@ Cd
 Cd
 Cd
 Cd
-tn
+fk
 tn
 tn
 EB
@@ -72372,7 +72380,7 @@ tn
 tn
 tn
 tn
-UI
+tn
 xP
 tn
 Cd
@@ -72821,7 +72829,7 @@ tn
 xP
 tn
 tn
-UI
+tn
 tn
 xP
 tn
@@ -73729,13 +73737,13 @@ tn
 UI
 tn
 tn
-UI
 tn
+tn
+tn
+xP
 tn
 xP
 tn
-xP
-UI
 tn
 xP
 tn
@@ -77587,7 +77595,7 @@ tn
 tn
 tn
 xP
-tn
+fk
 Cd
 Cd
 Cd
