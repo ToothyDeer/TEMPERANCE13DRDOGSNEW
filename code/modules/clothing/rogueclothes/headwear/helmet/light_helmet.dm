@@ -172,4 +172,3 @@
 	blocksound = SOFTHIT
 	max_integrity = ARMOR_INT_HELMET_CLOTH
 	color = null
-	resistance_flags = FIRE_PROOF
